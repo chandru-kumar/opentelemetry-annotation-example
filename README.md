@@ -1,5 +1,20 @@
 # OpenTelemetry Annotation Demo
 
+This repo shows how to use annotations on method level to create spans and export the traces to see the Distributed tracing for End to End transaction.
+Uses AspectJ features to create traces for the  methods applied with Annotations.
+
+## InjectSpan Annotation
+
+Creates new trace spans and makes the span as current span.
+
+## InjectSpanToContext Annotation
+
+Adds spans to current context and makes the span as current span.
+
+## InjectChildSpanToContext Annotation
+
+Adds spans as child span to current context.
+
 ### Pre-requisites
 
 - Docker
