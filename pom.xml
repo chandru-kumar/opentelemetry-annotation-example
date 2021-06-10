@@ -193,7 +193,7 @@
 						<configuration>
 							<archive>
 								<manifest>
-									<mainClass>com.opentelemetry.annotations.example.ExportTraceAnnotationTest</mainClass>
+									<mainClass>com.opentelemetry.annotations.example.ExportSpansWithAnnotation</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>
