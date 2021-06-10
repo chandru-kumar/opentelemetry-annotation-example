@@ -1,26 +1,17 @@
-# OpenTelemetry Collector Demo
+# OpenTelemetry Annotation Demo
 
-*IMPORTANT:* This uses a pre-released version of the OpenTelemetry Collector.
-
-This demo uses `docker-compose` and by default runs against the
-`otel/opentelemetry-collector-dev:latest` image. To run the demo, switch
-to this directory and run:
+To run the demo, switch to this directory and run(Windows machine, Haven't tried in MAC or Linux):
 
 ```shell
-docker-compose up -d
+docker compose up -d
 ```
 
 The demo exposes the following backends:
 
-- Jaeger at http://0.0.0.0:16686
-- Zipkin at http://0.0.0.0:9411
-- Prometheus at http://0.0.0.0:9090
-- Kibana at http://0.0.0.0:5601
+- Jaeger at http://localhost:16686
+- Zipkin at http://localhost:9411
+- Prometheus at http://localhost:9090
+- Kibana at http://localhost:5601
 
-Notes:
-
-- It may take some time for the application metrics to appear on the Prometheus
- dashboard;
-
-To clean up any docker container from the demo run `docker-compose down` from 
+To clean up any docker container from the demo run `docker compose down` from 
 this directory.
