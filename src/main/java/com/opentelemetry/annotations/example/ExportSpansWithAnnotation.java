@@ -19,6 +19,7 @@ public final class ExportSpansWithAnnotation {
 	public static void main(String[] args) throws InterruptedException {
 
 		login();
+		System.out.println("Exported Traces!");
 
 	}
 
